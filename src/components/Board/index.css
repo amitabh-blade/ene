@@ -1,0 +1,25 @@
+.board {
+  width: 375px;
+  height: 375px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+  border: 1px solid rgb(81, 81, 81);
+  background-color: #f5f5f5;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
