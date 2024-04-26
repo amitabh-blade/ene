@@ -8,7 +8,6 @@ const LatoFont = Lato({
 
 export const metadata = {
   title: "Ene",
-  description: "Moiu najanu ki bonaisu",
 };
 
 export default function RootLayout({ children }) {
