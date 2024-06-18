@@ -49,7 +49,27 @@ const Board = ({ gameData }) => {
     <div className="main-container">
       <div>
         <h2>Hi Arunita 🌻</h2>
-        <h4>Kiman pohiba aru?</h4>
+        <h4>Kiman kaam koriba aru?</h4>
+        <div
+          style={{
+            width: "100%",
+            height: 0,
+            paddingBottom: "125%",
+            position: "relative",
+            marginTop: "20px",
+          }}
+        >
+          <iframe
+            src="https://giphy.com/embed/21GCae4djDWtP5soiY"
+            width="100%"
+            height="100%"
+            style={{ position: "absolute" }}
+            frameBorder="0"
+            className="giphy-embed"
+            allowFullScreen
+            title="Giphy Embed"
+          ></iframe>
+        </div>
       </div>
       {/* <div className="board">
         {board.map((_, index) => (
